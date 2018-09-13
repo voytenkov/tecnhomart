@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<style>
+  body {
+    width: 1200px;
+  }
+  .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    outline: 2px solid #000000;
+  }
+
+  .wrapper-1 {
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    justify-content: space-between;
+    order: 1;
+  }
+  
+  .box {
+    width: 260px;
+    height: 100px;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .big-box {
+    width: 560px;
+    height: 240px;
+  }
+  .red {
+    background-color: red;
+   
+  }
+  .black {
+    background-color: black;
+   
+  }
+  .yellow {
+    background-color: yellow;
+   
+  }
+  .green {
+    background-color: green;
+   
+  }
+  .aqua {
+    background-color: aqua;
+   
+  }
+  .snow {
+    background-color: snow;
+    
+  }
+</style>
+<body>
+ <div class="wrapper">
+   <div class="box red">1</div>
+   <div class="box black">2</div>
+   <div class="box yellow">3</div>  
+   <div class="wrapper-1">
+      <div class="box green">4</div>
+      <div class="box aqua">5</div>
+   </div>
+   <div class="box big-box snow">6</div>
+ </div>
+  
+</body>
+</html>
