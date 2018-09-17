@@ -1,0 +1,65 @@
+@font-face {
+  font-family: Cuprum;
+  src: url("../fonts/cuprum.woff2");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: Cuprum;
+  src: url("../fonts/cuprumbold.woff2");
+  font-style: normal;
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: Cuprum;
+  src: url("../fonts/cuprumitalic.woff2");
+  font-style: italic;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: Cuprum;
+  src: url("../fonts/cuprumbolditalic.woff2");
+  font-style: italic;
+  font-weight: bold;
+}
+
+.visually-hidden {
+  position: absolute;
+
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  
+  color: #ffffff;
+  font-size: 17px;
+  line-height: 18px;
+  text-transform: uppercase;
+  font-family: Cuprum, "PT Sans", sans-serif;
+  
+  background-color: #3d546e;
+}
+
+h1 {
+  font-family: Cuprum, "PT Sans", sans-serif;
+  font-weight: bold;
+}
+
+h2 {
+  font-family: Cuprum, "PT Sans", sans-serif; 
+}
