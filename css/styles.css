@@ -49,7 +49,6 @@ body {
   color: #ffffff;
   font-size: 17px;
   line-height: 18px;
-  text-transform: uppercase;
   font-family: Cuprum, "PT Sans", sans-serif;
   
   background-color: #3d546e;
@@ -62,4 +61,90 @@ h1 {
 
 h2 {
   font-family: Cuprum, "PT Sans", sans-serif; 
+}
+
+.main-navigation {
+  background-color: #f4f7f9;
+}
+
+.header-top {
+  background-color: #3d546e;
+}
+
+.main-logo {
+  font-family: Cuprum, Arial, sans-serif;
+  font-size: 24px;
+  line-height: 24px;
+}
+
+.header-top__logo {
+  font-family: Cuprum, Arial, sans-serif;
+  font-size: 24px;
+  line-height: 24px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #ff5357;
+}
+
+.header-top__menu a {
+  color: #ffffff;
+  font-size: 17px;
+  line-height: 18px;
+  text-decoration: none;
+}
+
+.order {
+  color: #ffffff;
+  background-color: #ff5357;
+}
+
+.header-middle {
+  background-color: #f4f7f9;
+}
+
+.header-middle__description {
+  color: #ff5357;
+  text-transform: none;
+  font-size: 16px;
+  line-height: 23px;
+  font-style: italic;
+}
+
+.header-middle__contacts-phone {
+  color: #fb463c;
+  font-size: 21px;
+  line-height: 18px;
+  border: 2px solid #ffffff;
+}
+
+.header-middle__contacts-address {
+  color: #3d546e;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.user-navigation {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.user-navigation a {
+  color: #000000;
+  font-size: 21px;
+  line-height: 18px;
+  background-color: #ffffff;
+  text-decoration: none;
+}
+
+.main-menu {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+.main-menu a {
+  text-decoration: none;
 }
