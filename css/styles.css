@@ -148,3 +148,77 @@ h2 {
 .main-menu a {
   text-decoration: none;
 }
+
+.promo-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.promo-item__title {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.promo-item {
+  background-color: #ffbf47;
+}
+
+.promo-item__btn {
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.promo-slider__title {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.product-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.catalog-item__title {
+  color: #000000;
+  font-family: "PT Sans", serif;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 20px;
+  
+}
+
+.catalog-item {
+  background-color: #ffffff;
+  text-decoration: none;
+}
+
+.catalog-item a {
+  text-decoration: none;
+}
+
+
+
+.catalog-item__old-price {
+  font-family: "PT Sans", serif;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 18px;
+  color: #a9a9a9;
+  text-decoration: line-through;
+}
+
+.catalog-item__price {
+  font-family: "PT Sans", serif;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 18px;
+  color: #ffffff;
+  background-color: #ee3643;
+}
