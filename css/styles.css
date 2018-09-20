@@ -222,3 +222,29 @@ h2 {
   color: #ffffff;
   background-color: #ee3643;
 }
+
+.popular {
+  background-color: #f9f5f0;
+}
+
+.popular__title {
+  color: #3d546e;
+  font-size: 30px;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+
+.popular__btn {
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 18px;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: #ff5357;
+}
+
+.brands-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
