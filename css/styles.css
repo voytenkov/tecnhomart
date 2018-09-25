@@ -72,13 +72,7 @@ h2 {
 }
 
 .main-logo {
-  font-family: Cuprum, Arial, sans-serif;
-  font-size: 24px;
-  line-height: 24px;
-}
-
-.header-top__logo {
-  font-family: Cuprum, Arial, sans-serif;
+  font-family: Cuprum, sans-serif;
   font-size: 24px;
   line-height: 24px;
   text-decoration: none;
@@ -86,6 +80,16 @@ h2 {
   color: #ffffff;
   background-color: #ff5357;
 }
+
+/*.header-top__logo {
+  font-family: Cuprum, sans-serif;
+  font-size: 24px;
+  line-height: 24px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #ff5357;
+}*/
 
 .header-top__menu a {
   color: #ffffff;
@@ -166,10 +170,17 @@ h2 {
   background-color: #ffbf47;
 }
 
-.promo-item__btn {
+.button {
   color: #ffffff;
   font-size: 14px;
   line-height: 18px;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: #ff5357;
+}
+
+.promo-item__button {
+  background-color: #e5ac40;
 }
 
 .promo-slider__title {
@@ -203,8 +214,6 @@ h2 {
   text-decoration: none;
 }
 
-
-
 .catalog-item__old-price {
   font-family: "PT Sans", serif;
   font-weight: bold;
@@ -234,12 +243,7 @@ h2 {
   text-transform: uppercase;
 }
 
-.popular__btn {
-  color: #ffffff;
-  font-size: 14px;
-  line-height: 18px;
-  text-decoration: none;
-  text-transform: uppercase;
+.popular__button {
   background-color: #ff5357;
 }
 
@@ -299,8 +303,47 @@ h2 {
   font-weight: normal;
   font-family: "PT Sans", normal;
 }
+
 .shipping-item {
   font-weight: normal;
   font-size: 18px;
   line-height: 20px;
+}
+.main-footer {
+  color: #f3f7f9;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.main-footer-menu, .goods-footer-menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-menu a {
+  color: #f3f7f9;
+  text-decoration: none;
+}
+
+.goods-footer-menu a {
+  color: #ffda96;
+}
+.copyright {
+  color: #ffffff;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+}
+
+.feedback {
+  color: #ffffff;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+}
+
+.feedback a {
+  color: #ffda96;
 }

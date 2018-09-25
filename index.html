@@ -12,7 +12,7 @@
       <nav class="main-navigation">
         <section class="header-top">
          <h2 class="visually-hidden">Техномарт</h2>
-          <a href="#" class="header-top__logo">
+          <a href="#" class="main-logo">
             Техномарт
           </a>
           <form class="header-top__search-form" action="http://yandex.ru" method="post">
@@ -67,23 +67,23 @@
        <ul class="promo-list">
          <li class="promo-item">
            <h3 class="promo-item__title">Материалы</h3>
-           <a href="catalog.html" class="promo-item__btn btn">На любой вкус</a>
+           <a href="catalog.html" class="button promo-item__button">На любой вкус</a>
          </li>
          <li class="promo-item">
            <h3 class="promo-item__title">Инструменты</h3>
-           <a href="catalog.html" class="promo-item__btn btn">На все случаи</a>
+           <a href="catalog.html" class="button promo-item__button">На все случаи</a>
          </li>
          <li class="promo-item">
           <h3 class="promo-item__title">Техника</h3>
-          <a href="catalog.html" class="promo-item__btn btn">Для стройки</a>
+          <a href="catalog.html" class="button promo-item__button">Для стройки</a>
          </li>
          <li class="promo-item">
            <h3 class="promo-item__title">Скидки 50%</h3>
-           <a href="catalog.html" class="promo-item__btn btn">На 350 товаров</a>
+           <a href="catalog.html" class="button promo-item__button">На 350 товаров</a>
          </li>
          <li class="promo-item">
            <h3 class="promo-item__title">Доставка</h3>
-           <a href="catalog.html" class="promo-item__btn btn">Бесплатно</a>
+           <a href="catalog.html" class="button promo-item__button">Бесплатно</a>
          </li>
        </ul>
        <div class="promo-slider">
@@ -95,13 +95,13 @@
            <h3 class="promo-slider__title">Дрели</h3>
            <span>Соседям на радость!</span>
          </div>
-         <a href="catalog.html" class="promo-slider__btn btn">Открыть каталог</a>
+         <a href="catalog.html" class="button promo-slider__button">Открыть каталог</a>
        </div>
       </section>
       <section class="popular-product">
         <div class="popular">
           <h2 class="popular__title">Популярные товары</h2>
-          <a href="popular-product.html" class="popular__btn btn">Все популярные товары</a>
+          <a href="popular-product.html" class="popular__button button">Все популярные товары</a>
         </div>
         <ul class="product-list">
           <li class="catalog-item">
@@ -170,7 +170,7 @@
       <section class="popular-brand">
        <div class="popular">
           <h2 class="popular__title">Популярные производители</h2>
-          <a href="popular-product.html" class="popular__btn btn">Все производители</a>
+          <a href="popular-product.html" class="button popular__button">Все производители</a>
         </div>
         <ul class="brands-list">
           <li class="brands-item">
@@ -202,9 +202,9 @@
       <section class="services">
         <h2 class="section-title">Сервисы</h2>
         <p class="services-description">Хороший интернет-магазин отличается от плохого не только ценами! Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.</p>
-        <button class="services-button delivery-btn" type="submit">Доставка</button>
-        <button class="services-button warranty-btn" type="submit">Гарантия</button>
-        <button class="services-button credit-btn" type="submit">Кредит</button>
+        <button class="services-button delivery-button" type="submit">Доставка</button>
+        <button class="services-button warranty-button" type="submit">Гарантия</button>
+        <button class="services-button credit-button" type="submit">Кредит</button>
          <ul class="services-list">
           <li class="services-item">
             <h3 class="services-item__title">
@@ -232,7 +232,7 @@
             <p class="services-item__description" >
               Залезть в долговую яму стало проще! Кредитные консультанты придут вам на помощь.
             </p>
-            <button class="service-item__button">Отправить заявку</button>  
+            <a href="#" class="button service-item__button">Отправить заявку</a>  
             <p class="services-item__image"><img class="credit" src="" alt=""></p>
           </li>
         </ul>
@@ -248,7 +248,7 @@
            <span class="shipping-item">Автотрейдинг</span>
            <span class="shipping-item">ЖелДорЭкспедиция</span>
         </p>
-          <a href="company.html">Подробнее о компании</a>
+          <a href="company.html" class="button location-button">Подробнее о компании</a>
         </section>
         <section class="location">
           <h2 class="section-title">Контакты</h2>
@@ -256,30 +256,36 @@
             Вы можете забрать товар сами, заехав в наш офис:
           </p>
           <p class="location-map">
-            <img src="" alt="">
+            <img src="/img/map.jpg" alt="">
           </p>
-          <button class="location-button">Заблудились? Напишите нам!</button>
+          <a class="button location-button">Заблудились? Напишите нам!</a>
       </section>
     </main>
     <footer class="main-footer">
        <div class="main-footer__top">
-         <a href="#" class="header-top__logo">
-           <h2 class="main-logo">Техномарт</h2>
+         <a href="#" class="main-logo">
+            Техномарт
          </a>
          <div class="main-footer__contacts">
           <p class="main-footer__contacts-address">
             г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8<br>
             +7 (812) 555-05-55
           </p>
-          <ul class="footer-menu">
-            <li><a href="index.html">Главная</a></li>
-            <li><a href="company.html">Компания</a></li>
-            <li><a href="catalog.html">Каталог</a></li>
-            <li><a href="news.html">Новости</a></li>
-            <li><a href="offers.html">Спецпредложения</a></li>
-            <li><a href="delivery.html">Доставка</a></li>
-            <li><a href="contacts.html">Контакты</a></li>
-          </ul>
+          <section class="footer-menu">
+            <ul class="main-footer-menu">
+              <li><a href="company.html">Компания</a></li>
+              <li><a href="news.html">Новости</a></li>
+              <li><a href="catalog.html">Каталог</a></li>
+              <li><a href="delivery.html">Доставка</a></li>
+              <li><a href="contacts.html">Контакты</a></li>
+            </ul>
+            <ul class="goods-footer-menu">
+              <li><a href="company.html">Материалы</a></li>
+              <li><a href="news.html">Техника</a></li>
+              <li><a href="catalog.html">Инструмент</a></li>
+              <li><a href="delivery.html">Спецпредложения</a></li>
+            </ul>
+          </section>
        </div>
       </div>
       <div class="main-footer__bottom">
