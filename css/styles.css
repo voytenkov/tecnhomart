@@ -77,17 +77,48 @@ h2 {
   display: flex;
   flex-direction: row;
   background-color: #3d546e;
+  justify-content: flex-start;
+  align-items: center;
 }
 
+
+
 .main-logo {
-  min-width: 240px;
+  width: 160px;
+  background-color: #ff5357;
+  text-align: center;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.main-logo::after {
+  border-bottom: 5px solid red;
+}
+
+.main-logo a {
   font-family: Cuprum, sans-serif;
   font-size: 24px;
   line-height: 24px;
   text-decoration: none;
   text-transform: uppercase;
   color: #ffffff;
-  background-color: #ff5357;
+}
+
+.header-top__search-form label{
+  width: 170px;
+  margin-left: 10px;
+  border: none;
+  background-color: #3d546e;
+}
+
+.header-top__search-form input{
+  width: 170px;
+  border: none;
+  background-color: #3d546e;
+}
+
+.header-top__menu {
+  margin-left: auto;
 }
 
 .header-top__menu a {
@@ -97,9 +128,25 @@ h2 {
   text-decoration: none;
 }
 
+.bookmark::before {
+  content: url("/img/icon-bookmark.svg");
+  vertical-align: middle;
+  margin-right: 15px;
+}
+
+.cart {
+  margin: 15px;
+}
+
+.cart::before {
+  content: url("/img/icon-cart.svg");
+  margin-right: 15px;
+}
+
 .order {
   color: #ffffff;
   background-color: #ff5357;
+  margin-left: 20px;
 }
 
 .header-middle {
@@ -170,6 +217,7 @@ h2 {
 }
 
 .button {
+  padding: 10px;
   color: #ffffff;
   font-size: 14px;
   line-height: 18px;
