@@ -29,7 +29,7 @@
 body {
   margin: 0;
   padding: 0;
-  
+
   color: #ffffff;
   font-size: 17px;
   line-height: 18px;
@@ -129,12 +129,12 @@ p {
   background-color: #b52933;
 }
 
-.header-top__search-form label{
+.header-top__search-form label {
   margin-left: 10px;
   opacity: 0.5;
 }
 
-.header-top__search-form input{
+.header-top__search-form input {
   width: 170px;
   border: none;
   background-color: #3d546e;
@@ -154,8 +154,7 @@ p {
 .header-top__menu {
   display: flex;
   align-items: center;
-  justify-content: space-between
-  padding: 0;
+  justify-content: space-between padding: 0;
   margin: 0;
   margin-left: auto;
   outline: 2px solid red;
@@ -311,6 +310,10 @@ p {
   color: #ffffff;
 }
 
+.promo-block {
+  margin-bottom: 40px;
+}
+
 .promo-list {
   display: flex;
   flex-wrap: wrap;
@@ -333,8 +336,12 @@ p {
   padding: 25px;
 }
 
-.slide-wrapper .promo-item {
-  margin-top: 18px;
+.slide-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 20px;
+  height: 265px;
 }
 
 .promo-item__title {
@@ -434,10 +441,46 @@ p {
   padding: 10px 0;
 }
 
-.product-list {
+.popular {
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.popular__title {
+  margin-left: 20px;
+}
+
+.popular__button {
+  height: 20px;
+  margin-top: 20px;
+  margin-right: 20px;
+  padding: 10px;
+}
+
+.catalog-list {
+  display: flex;
+  justify-content: space-between;
+  align-content: space-around;
   list-style: none;
   margin: 0;
   padding: 0;
+}
+
+.catalog-item {
+  width: 210px;
+  background-color: #ffffff;
+  text-decoration: none;
+  border: 2px solid #3bbce3;
+}
+
+.catalog-item a {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
 }
 
 .catalog-item__title {
@@ -446,16 +489,10 @@ p {
   font-weight: bold;
   font-size: 18px;
   line-height: 20px;
-  
 }
 
-.catalog-item {
-  background-color: #ffffff;
-  text-decoration: none;
-}
-
-.catalog-item a {
-  text-decoration: none;
+.catalog-item__image {
+  min-height: 138px;
 }
 
 .catalog-item__old-price {
@@ -553,6 +590,7 @@ p {
   font-size: 18px;
   line-height: 20px;
 }
+
 .main-footer {
   color: #f3f7f9;
   font-weight: normal;
@@ -564,7 +602,8 @@ p {
   position: relative;
 }
 
-.main-footer-menu, .goods-footer-menu {
+.main-footer-menu,
+.goods-footer-menu {
   list-style: none;
   margin: 0;
   padding: 0;
@@ -578,6 +617,7 @@ p {
 .goods-footer-menu a {
   color: #ffda96;
 }
+
 .copyright {
   color: #ffffff;
   font-weight: normal;
