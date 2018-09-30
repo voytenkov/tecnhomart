@@ -614,7 +614,7 @@ p {
   background-image: url("../img/vertical-line.png");
   position: absolute;
   left: 240px;
-  top: 230px;
+  top: 220px;
   width: 10px;
   height: 279px;
   
@@ -657,8 +657,20 @@ p {
   padding: 0;
 }
 
-.services-item {
+.services-item-1 {
+  display: none;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.services-item-2 {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.services-item-3 {
+  display: none;
   flex-wrap: wrap;
   justify-content: space-between;
 }
@@ -669,6 +681,7 @@ p {
 
 .services-item__image {
   width: 220px;
+  margin-top: 20px;
 }
 
 .services-item__description {
@@ -677,6 +690,7 @@ p {
   font-weight: normal;
   font-size: 13px;
   line-height: 24px;
+  margin-top: 20px;
 }
 
 .services-item__title {
