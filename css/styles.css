@@ -160,6 +160,10 @@ p {
   padding-bottom: 3px;
 }
 
+.header-top__search-form button:hover {
+  opacity: 1.0;
+}
+
 .header-top__menu {
   display: flex;
   align-items: center;
@@ -177,19 +181,39 @@ p {
 }
 
 .bookmark::before {
-  content: "";
-  vertical-align: middle;
+  content: url("../img/icon-bookmark.svg");
   margin-right: 15px;
-  background-image: url("../img/icon-bookmark.svg")
+  opacity: 0.5;
+}
+
+.bookmark:hover::before {
+  opacity: 1;
+}
+
+.bookmark:active {
+  background-color: #161d29;
+  padding: 15px 5px;
+  margin: 0 15px;
 }
 
 .cart {
   margin: 15px;
 }
 
+.cart:active {
+  margin: 0 15px;
+  padding: 15px 5px 15px 5px;
+   background-color: #161d29;
+}
+
 .cart::before {
   content: url("../img/icon-cart.svg");
   margin-right: 15px;
+  opacity: 0.5;
+}
+
+.cart:hover::before {
+  opacity: 1;
 }
 
 .order {
@@ -277,8 +301,21 @@ p {
   position: absolute;
   left: 10px;
   background-color: #ffffff;
-  background-image: url("../img/icon-login.svg");
+  background-image: url("../img/icon-login.png");
+  opacity: 0.5;
   background-repeat: no-repeat;
+}
+
+.login:hover::before {
+  opacity: 1;
+}
+
+.user-navigation a:hover {
+  color: #ee3643;
+}
+
+.user-navigation a:active {
+  opacity: 0.5;
 }
 
 .menu {
@@ -310,7 +347,7 @@ p {
 }
 
 .main-menu li {
-  padding: 20px 0;
+  padding: 20px;
 }
 
 .main-menu a {
@@ -318,6 +355,14 @@ p {
   line-height: 17px;
   text-decoration: none;
   color: #ffffff;
+}
+
+.main-menu li:hover {
+  background-color: #33445a;
+}
+
+.main-menu a:active {
+  opacity: 0.5;
 }
 
 .promo-block {
@@ -346,6 +391,10 @@ p {
   padding: 25px;
 }
 
+.promo-item {
+  box-shadow: #000000 20 20;
+}
+
 .slide-wrapper {
   display: flex;
   flex-direction: column;
@@ -365,7 +414,16 @@ p {
 }
 
 .promo-item .button {
-  background-color: #e5ac40;
+  background-color: rgba(0, 0, 0 , 0.1);
+  border-radius: 3px;
+}
+
+.promo-item .button:hover {
+  background-color: rgba(0, 0, 0 , 0.2);
+}
+
+.promo-item .button:active {
+  background-color: rgba(0, 0, 0 , 0.3);
 }
 
 .promo-item-2 {
@@ -373,26 +431,14 @@ p {
   background-image: url("../img/icon-2.svg");
 }
 
-.promo-item-2 .button {
-  background-color: #35a9cc;
-}
-
 .promo-item-3 {
   background-color: #dc91d8;
   background-image: url("../img/icon-3.svg");
 }
 
-.promo-item-3 .button {
-  background-color: #c682c2;
-}
-
 .promo-item-4 {
   background-color: #8ed78f;
   background-image: url("../img/icon-4.svg");
-}
-
-.promo-item-4 .button {
-  background-color: #80c180;
 }
 
 .promo-item-5 {
