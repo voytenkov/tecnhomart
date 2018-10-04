@@ -540,6 +540,14 @@ p {
   text-decoration: none;
 }
 
+.catalog-item:hover {
+  box-shadow: 0px 4px 25px 1px grey;
+}
+
+.catalog-item:active {
+  box-shadow: 0px 4px 15px 1px grey;
+}
+
 .catalog-item__title {
   margin: 0;
   padding: 0;
@@ -930,6 +938,15 @@ p {
   text-decoration: none;
 }
 
+.footer-menu a:hover {
+  text-decoration: underline;
+}
+
+.footer-menu a:active {
+  text-decoration: none;
+  opacity: 0.5;
+}
+
 .goods-footer-menu a {
   color: #ffda96;
 }
@@ -969,6 +986,23 @@ p {
   height: 43px;
   background-color: #29384a;
   border-radius: 50%;
+}
+
+.social-button:hover {
+  background-color: red;
+}
+
+.feedback a {
+  text-decoration: none;
+}
+
+.feedback a:hover {
+  text-decoration: underline;
+}
+
+.feedback a:active {
+  color: red;
+  text-decoration: none;
 }
 
 .feedback {
