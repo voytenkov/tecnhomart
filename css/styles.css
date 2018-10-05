@@ -497,6 +497,15 @@ p {
   padding: 10px 0;
 }
 
+.button:hover {
+  background-color: #ca2c37;
+}
+
+.button:active {
+  background-color: #ba2732;
+  color: #cf6870;
+}
+
 .popular {
   display: flex;
   justify-content: space-between;
@@ -541,11 +550,11 @@ p {
 }
 
 .catalog-item:hover {
-  box-shadow: 0px 4px 25px 1px grey;
+  box-shadow: 0px 4px 25px 1px rgba(0, 0, 0, 0.2);
 }
 
 .catalog-item:active {
-  box-shadow: 0px 4px 15px 1px grey;
+  box-shadow: 0px 4px 15px 1px rgba(0, 0, 0, 0.2);;
 }
 
 .catalog-item__title {
@@ -636,6 +645,14 @@ p {
 
 .brands-item__image {
   width: 126px;
+}
+
+.brands-item:hover {
+  box-shadow: 0px 4px 25px 1px rgba(0, 0, 0, 0.2);
+}
+
+.brands-item:active {
+  box-shadow: 0px 4px 15px 1px rgba(0, 0, 0, 0.2);;
 }
 
 .section-title {
@@ -783,6 +800,10 @@ p {
 
 .shipping-company {
   width: 540px;
+}
+
+.shipping-company a {
+  padding: 10px 30px;
 }
 
 .location {
