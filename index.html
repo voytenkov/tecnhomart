@@ -419,6 +419,30 @@
       </div>
     </div>
   </footer>
+  <div class="container">
+    <section class=" modal-map">
+      <h2 class="visually-hidden">Как до нас добраться</h2>
+      <iframe src="https://yandex.ru/map-widget/v1/-/CBB4bLv0gB" width="940" height="450" frameborder="1" allowfullscreen="true"></iframe>
+       <p><img src="img/map.jpg" width="940" height="450" alt="Офис компании по адресу ул. Большая Конюшенная 19/8, Санкт-Петербург"></p>
+      <button class="modal-close">Закрыть</button>
+    </section>
+  </div>
+  <script>
+    var modalMap = document.querySelector(".modal-map");
+    var modalMapButton = document.querySelector(".location-button");
+    var modalClose = document.querySelector(".modal-close");
+    modalMapButton.addEventListener("click", function (evt) {
+      "use strict";
+      evt.preventDefault();
+      modalMap.classList.add("modal-view");
+    });
+    modalClose.addEventListener("click", function(evt) {
+      "use strict";
+      evt.preventDefault();
+      modalMap.classList.remove("modal-view");
+    });
+  </script>
+  
 </body>
 
 </html>
