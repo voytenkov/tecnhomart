@@ -420,11 +420,31 @@
     </div>
   </footer>
   <div class="container">
-    <section class=" modal-map">
+    <section class="modal-map">
       <h2 class="visually-hidden">Как до нас добраться</h2>
       <iframe src="https://yandex.ru/map-widget/v1/-/CBB4bLv0gB" width="940" height="450" frameborder="1" allowfullscreen="true"></iframe>
        <p><img src="img/map.jpg" width="940" height="450" alt="Офис компании по адресу ул. Большая Конюшенная 19/8, Санкт-Петербург"></p>
       <button class="modal-close">Закрыть</button>
+    </section>
+  </div>
+  <div class="container">
+    <section class="modal-login">
+      <form action="get" class="login-form">
+        <p class="login-name">
+          <label for="name">Ваше имя:</label>
+          <input id="name" type="text" placeholder="Представтесь, пожалуйста">
+        </p>
+        <p class="login-email">
+          <label for="email">Ваш e-mail:</label>
+          <input id="email" type="e-mail" placeholder="Для отправки ответа">
+        </p>
+        <p class="login-message">
+          <label for="message">Текст письма:</label>
+          <textarea name="" id="message" cols="30" rows="10">В свободной форме</textarea>
+        </p>
+        <button class="modal-close">Закрыть</button>
+        <button type="submit">Отправить</button>
+      </form>
     </section>
   </div>
   <script>
