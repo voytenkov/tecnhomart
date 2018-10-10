@@ -1138,10 +1138,6 @@ p {
   border: none;
 }
 
-.modal-view {
-  display: block;
-}
-
 .modal-close {
   position: absolute;
   top: 20px;
@@ -1264,4 +1260,8 @@ p {
 .login-form button:last-child {
   border: none;
   width: 460px;
+}
+
+.modal-view {
+  display: block;
 }
