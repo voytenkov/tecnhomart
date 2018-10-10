@@ -135,9 +135,9 @@
               </span>
             </a>
             <div class="buy-block__wrapper">
-               <p class="catalog-item__buy-block">
-                  <a href="#" class="button">Купить</a>
-                  <a href="#" class="button">В закладки</a>
+              <p class="catalog-item__buy-block">
+                <a href="#" class="button">Купить</a>
+                <a href="#" class="button">В закладки</a>
               </p>
             </div>
           </li>
@@ -157,10 +157,10 @@
                 15500 р.
               </span>
             </a>
-           <div class="buy-block__wrapper">
-               <p class="catalog-item__buy-block">
-                  <a href="#" class="button">Купить</a>
-                  <a href="#" class="button">В закладки</a>
+            <div class="buy-block__wrapper">
+              <p class="catalog-item__buy-block">
+                <a href="#" class="button">Купить</a>
+                <a href="#" class="button">В закладки</a>
               </p>
             </div>
           </li>
@@ -181,9 +181,9 @@
               </span>
             </a>
             <div class="buy-block__wrapper">
-               <p class="catalog-item__buy-block">
-                  <a href="#" class="button">Купить</a>
-                  <a href="#" class="button">В закладки</a>
+              <p class="catalog-item__buy-block">
+                <a href="#" class="button">Купить</a>
+                <a href="#" class="button">В закладки</a>
               </p>
             </div>
           </li>
@@ -204,9 +204,9 @@
               </span>
             </a>
             <div class="buy-block__wrapper">
-               <p class="catalog-item__buy-block">
-                  <a href="#" class="button">Купить</a>
-                  <a href="#" class="button">В закладки</a>
+              <p class="catalog-item__buy-block">
+                <a href="#" class="button">Купить</a>
+                <a href="#" class="button">В закладки</a>
               </p>
             </div>
           </li>
@@ -329,7 +329,7 @@
             <li class="shipping-item shipping-item-2">Автотрейдинг</li>
             <li class="shipping-item shipping-item-3">ЖелДорЭкспедиция</li>
           </ul>
-          <a href="company.html" class="button">Подробнее о компании</a>
+          <a href="company.html" class="button about-button">Подробнее о компании</a>
         </section>
         <section class="location">
           <h2 class="section-title">Контакты</h2>
@@ -423,7 +423,7 @@
     <section class="modal-map">
       <h2 class="visually-hidden">Как до нас добраться</h2>
       <iframe src="https://yandex.ru/map-widget/v1/-/CBB4bLv0gB" width="940" height="450" frameborder="1" allowfullscreen="true"></iframe>
-       <p><img src="img/map.jpg" width="940" height="450" alt="Офис компании по адресу ул. Большая Конюшенная 19/8, Санкт-Петербург"></p>
+      <p><img src="img/map.jpg" width="940" height="450" alt="Офис компании по адресу ул. Большая Конюшенная 19/8, Санкт-Петербург"></p>
       <button class="modal-close">Закрыть</button>
     </section>
   </div>
@@ -432,7 +432,7 @@
       <form action="get" class="login-form">
         <p class="login-name">
           <label for="name">Ваше имя:</label>
-          <input id="name" type="text" placeholder="Представтесь, пожалуйста">
+          <input id="name" type="text" placeholder="Представьтесь, пожалуйста">
         </p>
         <p class="login-email">
           <label for="email">Ваш e-mail:</label>
@@ -440,29 +440,39 @@
         </p>
         <p class="login-message">
           <label for="message">Текст письма:</label>
-          <textarea name="" id="message" cols="30" rows="10">В свободной форме</textarea>
+          <textarea name="" id="message" cols="20" rows="5" placeholder="В свободной форме"></textarea>
         </p>
         <button class="modal-close">Закрыть</button>
-        <button type="submit">Отправить</button>
+        <div class="login-button__wrapper">
+          <button type="submit" class="button">Отправить</button>
+        </div>
       </form>
     </section>
   </div>
   <script>
     var modalMap = document.querySelector(".modal-map");
+    var modalLogin = document.querySelector(".modal-login");
     var modalMapButton = document.querySelector(".location-button");
+    var modalContactButton = document.querySelector(".about-button");
     var modalClose = document.querySelector(".modal-close");
-    modalMapButton.addEventListener("click", function (evt) {
+    modalMapButton.addEventListener("click", function(evt) {
       "use strict";
       evt.preventDefault();
       modalMap.classList.add("modal-view");
+    });
+    modalContactButton.addEventListener("click", function(evt) {
+      "use strict";
+      evt.preventDefault();
+      modalLogin.classList.add("modal-view");
     });
     modalClose.addEventListener("click", function(evt) {
       "use strict";
       evt.preventDefault();
       modalMap.classList.remove("modal-view");
     });
+
   </script>
-  
+
 </body>
 
 </html>

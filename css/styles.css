@@ -75,7 +75,7 @@ p {
   width: 940px;
   margin: 0 auto;
   padding: 0 10px;
-  
+
 }
 
 .button {
@@ -91,6 +91,7 @@ p {
 .main-header {
   margin-bottom: 60px;
 }
+
 .main-navigation {
   background-color: #f4f7f9;
 }
@@ -203,7 +204,7 @@ p {
 .cart:active {
   margin: 0 15px;
   padding: 15px 5px 15px 5px;
-   background-color: #161d29;
+  background-color: #161d29;
 }
 
 .cart::before {
@@ -414,16 +415,16 @@ p {
 }
 
 .promo-item .button {
-  background-color: rgba(0, 0, 0 , 0.1);
+  background-color: rgba(0, 0, 0, 0.1);
   border-radius: 3px;
 }
 
 .promo-item .button:hover {
-  background-color: rgba(0, 0, 0 , 0.2);
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
 .promo-item .button:active {
-  background-color: rgba(0, 0, 0 , 0.3);
+  background-color: rgba(0, 0, 0, 0.3);
 }
 
 .promo-item-2 {
@@ -528,7 +529,7 @@ p {
 .catalog-list {
   display: flex;
   justify-content: space-between;
-  
+
   list-style: none;
   margin: 0;
   padding: 0;
@@ -555,7 +556,8 @@ p {
 }
 
 .catalog-item:active {
-  box-shadow: 0px 4px 15px 1px rgba(0, 0, 0, 0.2);;
+  box-shadow: 0px 4px 15px 1px rgba(0, 0, 0, 0.2);
+  ;
 }
 
 .catalog-item__title {
@@ -708,7 +710,8 @@ p {
 }
 
 .brands-item:active {
-  box-shadow: 0px 4px 15px 1px rgba(0, 0, 0, 0.2);;
+  box-shadow: 0px 4px 15px 1px rgba(0, 0, 0, 0.2);
+  ;
 }
 
 .section-title {
@@ -761,7 +764,7 @@ p {
   top: 220px;
   width: 10px;
   height: 279px;
-  
+
 }
 
 .services-description {
@@ -790,8 +793,8 @@ p {
 }
 
 .services-button__current {
-   background-color: #ffffff;
-   color: #3d546e;
+  background-color: #ffffff;
+  color: #3d546e;
 }
 
 .services-list {
@@ -929,7 +932,7 @@ p {
   position: absolute;
   width: 25px;
   height: 3px;
-  top:123px;
+  top: 123px;
   left: 0;
   background-color: #ff716f;
 }
@@ -958,7 +961,7 @@ p {
   color: #f3f7f9;
   font-weight: normal;
   font-size: 18px;
-  line-height: 24px; 
+  line-height: 24px;
 }
 
 .main-footer__top {
@@ -1052,7 +1055,7 @@ p {
   width: 180px;
   list-style: none;
   margin: 0;
-  padding: 0; 
+  padding: 0;
 }
 
 .social-button {
@@ -1168,15 +1171,18 @@ p {
 .modal-close::after {
   transform: rotate(-45deg);
 }
+
 .modal-login {
+  display: none;
   position: fixed;
   top: 50%;
   left: 50%;
   margin-top: -270px;
   margin-left: -270px;
   width: 620px;
-  /* margin: 0 auto; */
   color: #000000;
+  font-size: 18px;
+  line-height: 18px;
   background-color: #ffffff;
   box-shadow: 0 30px 50px rgba(0, 0, 0, 0.7);
   z-index: 4;
@@ -1188,8 +1194,25 @@ p {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding: 47px 0;
+  padding: 0;
+  margin: 0;
+  padding-top: 45px;
   border-top: 7px solid #ff5257;
+}
+
+.login-form label {
+  margin: 10px 0;
+}
+
+.login-form input,
+.login-form textarea {
+  border: 2px solid #f4f4f4;
+  border-radius: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  font-size: 13px;
+  line-height: 18px;
 }
 
 .login-name {
@@ -1216,12 +1239,29 @@ p {
 .login-message {
   display: flex;
   flex-direction: column;
+  align-content: flex-start;
+  margin-top: 15px;
 }
 
 .login-message label {
   width: 460px;
 }
 
+.login-message textarea {
+  resize: none;
+  border-radius: 5px;
+}
+
+.login-button__wrapper {
+  background-color: #f4f4f4;
+  width: 100%;
+  margin: 0;
+  margin-top: 35px;
+  text-align: center;
+  padding: 30px 0;
+}
+
 .login-form button:last-child {
+  border: none;
   width: 460px;
 }
