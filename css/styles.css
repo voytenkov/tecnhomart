@@ -1265,3 +1265,53 @@ p {
 .modal-view {
   display: block;
 }
+
+.inner-page {
+  color: #000000;
+}
+
+.inner-page .main-title {
+  font-family: Cuprum, sans-serif;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 30px;
+  color: #32425c;
+}
+
+.catalog-filter {
+  font-family: PTSans, sans-serif;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+.catalog-filter__title {
+  font-size: 13px;
+  line-height: 18px;
+  font-weight: bold;
+}
+
+.catalog-filter__section-title {
+  font-size: 17px;
+  line-height: 30px;
+}
+
+.catalog-filter__brands {
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.catalog-filter__power {
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.catalog-filter__brands-list {
+  list-style: none;
+}
+
+.catalog-filter__power-list {
+  list-style: none;
+}
+.breadcrumbs-list {
+  list-style: none;
+}
