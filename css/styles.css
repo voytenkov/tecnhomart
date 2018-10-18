@@ -1288,8 +1288,15 @@ p {
   color: #32425c;
 }
 
+.main-content__wrapper {
+  width: 940px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
 .catalog-filter {
-  width: 300px;
+  width: 220px;
   font-family: PTSans, sans-serif;
   font-weight: normal;
   text-transform: uppercase;
@@ -1318,10 +1325,14 @@ p {
 
 .catalog-filter__brands-list {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .catalog-filter__power-list {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .breadcrumbs-list {
@@ -1329,18 +1340,17 @@ p {
 }
 
 .main-catalog {
-  width: 600px;
+  width: 700px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 
 .main-catalog .catalog-list {
-  width: 600px;
+  width: 700px;
 }
 
 .main-catalog .catalog-item {
   margin: 0;
   padding: 0;
-  width: 190px;
 }
