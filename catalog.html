@@ -85,7 +85,9 @@
       <h1 class="main-title">Перфораторы</h1>
       <div class="main-content__wrapper">
         <section class="catalog-filter">
-          <h2 class="catalog-filter__title">Фильтр</h2>
+          <div class="catalog-filter__title__wrapper">
+            <h2 class="catalog-filter__title">Фильтр:</h2>
+          </div>
             <section class="catalog-filter__price">
               <h3 class="catalog-filter__section-title">Цена:</h3>
               <span>бегунок</span>
@@ -134,12 +136,18 @@
             </button>
         </section>
         <section class="main-catalog catalog">
-         <h2 class="catalog-filter__title visually-hidden">Каталог товаров</h2>
-         <div class="catalog-sorting">
-           <h2 class="catalog-filter__title">Сортировка:</h2>
-           <button type="submit" id="by-price">По цене</button>
-           <button type="submit" id="by-type">По типу</button>
-           <button type="submit" id="by-function">По функционалу</button>
+         <h2 class="visually-hidden">Каталог товаров</h2>
+         <div class="main-catalog__title__wrapper">
+           <div class="catalog-filter__title__wrapper">
+             <h2 class="catalog-filter__title">Сортировка:</h2>
+            </div>
+             <div class="catalog-sorting">
+              <button type="submit" id="by-price" class="sorting-button">По цене</button>
+              <button type="submit" id="by-type">По типу</button>
+              <button type="submit" id="by-function">По функционалу</button>
+              <button type="submit" id="by-up" class="sorting-dir__up"></button>
+              <button type="submit" id="by-up" class="sorting-dir__down"></button>
+           </div>
          </div>
           <ul class="catalog-list">
               <li class="catalog-item">
