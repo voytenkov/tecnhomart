@@ -1382,6 +1382,8 @@ p {
   display: flex;
   flex-wrap: wrap;
   width: 700px;
+  margin-bottom: 20px;
+  background-color: #f2f6f8;
 }
 
 .main-catalog .catalog-filter__title__wrapper {
@@ -1390,18 +1392,45 @@ p {
   height: 48px;
 }
 
-.main-catalog .catalog-sorting {
-  width: 470px;
+.main-catalog .catalog-sorting__by-type {
+  width: 350px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 20px;
-  background-color: #f2f6f8;
+  margin-right: 35px;
+  margin-left: 10px;
 }
 
-.catalog-sorting button {
-  padding: 15px 0 15px 18px;
+.main-catalog .catalog-sorting__by-dir {
+  width: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: 10px;
+  justify-content: flex-start;
+}
+
+.sorting-button {
+  padding: 0;
+  font-size: 13px;
+  height: 18px;
+  line-height: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: #f2f6f8;
+  color: #c4c1bb;
+  border: none;
+  border-bottom: 1px dotted #ee3643;
+}
+
+.sorting-button__current {
+  color: #ee3643;
+  border: none;
+}
+
+.catalog-sorting__by-dir button {
+  margin: 0 auto;
   font-size: 13px;
   line-height: 18px;
   font-weight: bold;
@@ -1420,13 +1449,43 @@ p {
 }
 
 .sorting-dir__up {
+  width: 11px;
   background-image: url("../img/icon-up-dir.svg");
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .sorting-dir__down {
+  width: 11px;
   background-image: url("../img/icon-down-dir.svg");
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.price-begunok {
+  width: 220px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.price-begunok span:nth-child(1) {
+  position: relative;
+  width: 220px;
+  height: 75px;
+  margin-bottom: 10px;
+  background-color: #f2f6f8;
+  border-radius: 5px;
+}
+
+.price-begunok span:nth-child(2),
+.price-begunok span:nth-child(4) {
+  width: 95px;
+  height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  background-color: #f2f6f8;
 }

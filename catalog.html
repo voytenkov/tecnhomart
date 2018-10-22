@@ -90,8 +90,12 @@
           </div>
             <section class="catalog-filter__price">
               <h3 class="catalog-filter__section-title">Цена:</h3>
-              <span>бегунок</span>
-              <span>0 - 3000</span>
+              <div class="price-begunok">
+                <span></span>
+                <span>0</span>
+                <span> - </span>
+                <span>3000</span>
+              </div>
             </section>
             <section class="catalog-filter__brands">
              <h3 class="catalog-filter__section-title">Производители:</h3>
@@ -138,16 +142,18 @@
         <section class="main-catalog catalog">
          <h2 class="visually-hidden">Каталог товаров</h2>
          <div class="main-catalog__title__wrapper">
-           <div class="catalog-filter__title__wrapper">
-             <h2 class="catalog-filter__title">Сортировка:</h2>
-            </div>
-             <div class="catalog-sorting">
-              <button type="submit" id="by-price" class="sorting-button">По цене</button>
-              <button type="submit" id="by-type">По типу</button>
-              <button type="submit" id="by-function">По функционалу</button>
-              <button type="submit" id="by-up" class="sorting-dir__up"></button>
+             <div class="catalog-filter__title__wrapper">
+               <h2 class="catalog-filter__title">Сортировка:</h2>
+             </div>
+             <div class="catalog-sorting__by-type">
+              <button type="submit" id="by-price" class="sorting-button sorting-button__current">По цене</button>
+              <button type="submit" id="by-type" class="sorting-button">По типу</button>
+              <button type="submit" id="by-function" class="sorting-button">По функционалу</button>
+             </div>
+             <div class="catalog-sorting__by-dir">  
+              <button type="submit" id="by-up" class="sorting-dir__up  sorting-button__current"></button>
               <button type="submit" id="by-up" class="sorting-dir__down"></button>
-           </div>
+             </div>
          </div>
           <ul class="catalog-list">
               <li class="catalog-item">
