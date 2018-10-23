@@ -1362,7 +1362,7 @@ p {
 }
 
 .catalog-filter__brands-item {
-  margin-bottom: 10px;
+  margin-bottom: 17px;
 }
 
 .catalog-filter__power-list {
@@ -1372,7 +1372,12 @@ p {
 }
 
 .power-item {
-  margin-bottom: 10px;
+  margin-bottom: 17px;
+}
+
+.power-item:last-child {
+  margin: 0;
+  padding: 0;
 }
 
 .breadcrumbs-list {
@@ -1515,6 +1520,7 @@ p {
   height: 25px;
   position: absolute;
   margin-left: -30px;
+  margin-top: -4px;
   background-image: url("../img/checkbox-off.svg");
   background-repeat: no-repeat;
 }
@@ -1529,10 +1535,21 @@ p {
   height: 25px;
   position: absolute;
   margin-left: -30px;
+  margin-top: -4px;
   background-image: url("../img/radio-off.svg");
   background-repeat: no-repeat;
 }
 
 .catalog-filter__power-list input:checked + label::before {
   background-image: url("../img/radio-on.svg");
+}
+
+
+.catalog-filter__button {
+  width: 140px;
+  margin-top: 75px;
+  background-color: #ffffff;
+  border: none;
+  border: 1px solid #c5c5c5;
+  color: #000000;
 }
