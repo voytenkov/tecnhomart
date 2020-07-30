@@ -27,3 +27,5 @@ modalLoginClose.addEventListener("click", function (evt) {
   evt.preventDefault();
   modalLogin.classList.remove("modal-view");
 });
+
+

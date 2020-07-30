@@ -804,20 +804,14 @@ p {
   padding: 0;
 }
 
-.services-item-1 {
+.services-item {
   display: none;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 
-.services-item-2 {
+.services-item__current {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
-.services-item-3 {
-  display: none;
   flex-wrap: wrap;
   justify-content: space-between;
 }
@@ -1564,7 +1558,7 @@ p {
   flex-wrap: wrap;
   justify-content: flex-start;
   align-items: center;
-  
+
   list-style: none;
   margin: 0;
   padding: 0;
